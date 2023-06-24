@@ -22,7 +22,9 @@ export const Landing = () => {
   };
 
   const handleSorting = () => {
-    const sortedData = [...postData].sort((a, b) => a.createdAt - b.createdAt);
+    const sortedData = [...postData].sort(
+      (a, b) => Date.parse(a.createdAt) - Date.parse(b.createdAt)
+    );
     setPostData(sortedData);
   };
 

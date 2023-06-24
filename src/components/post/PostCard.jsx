@@ -51,7 +51,7 @@ export const PostCard = ({ forum, handleupvode, handledownvode }) => {
           <div className="action__icons">
             <FaComment onClick={() => navigate(`/comment/${postId}`)} />
             <FaShareAlt />
-            <FaBookmark />
+            <FaBookmark className="bookmark" />
           </div>
         </div>
       </section>
