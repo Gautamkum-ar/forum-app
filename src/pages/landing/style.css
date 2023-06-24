@@ -1,0 +1,112 @@
+
+
+.landing__container{
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    background: #e6e6e6;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+}
+.post__card{
+    display: flex;
+    /* flex-direction: column; */
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem;
+    background: #ffffff;
+
+}
+.post__card .vote__bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    font-size: 1.7rem;
+}
+
+.post__card__main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+
+.post__card__main .user__posted{
+    display: flex;
+    align-items: center;
+
+}
+
+.post__card__main .user__posted img{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.7rem;
+}
+
+.user__name{
+    display: flex;
+    color: #777;
+}
+
+.user__name span{
+    margin-left: 0.3rem;
+    color: blue;
+}
+.created__at{
+    display: flex;
+    color: #888;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.post__card__content{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+}
+
+.post__card__content h1{
+    display: flex;
+}
+
+.post__card__content .tags{
+    display: flex;
+}
+
+.post__card__content .tags span{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    background: #b0bfce;
+    color: blue;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.content{
+    display: flex;
+    padding: 0.3rem;
+}
+
+.action__icons{
+    display: flex;
+    border-top: 1px solid #888;
+    justify-content: space-between;
+    align-items: center;
+    color: #777;
+    margin-top: 0.5rem;
+
+    padding: 1rem 1rem 0 1rem;
+}

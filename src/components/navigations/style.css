@@ -1,0 +1,30 @@
+.navigation__container{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.links p{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 2rem;
+    gap: 10px;
+    font-size: 1.3rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.9rem;
+    cursor: pointer;
+    color: #666;
+}
+.links p:hover{
+    background: #fff;
+}

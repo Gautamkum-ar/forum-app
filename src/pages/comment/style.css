@@ -1,0 +1,54 @@
+
+.comment__container{
+    display: flex;
+    width: 100%;
+}
+
+.comment__main{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.comment__card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.user__profile{
+    display: flex;
+    align-items: center;
+}
+
+.user__profile img{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+}
+
+.user__profile p{
+    display: flex;
+    color: #888;
+}
+
+.user__profile p span{
+    color: rgb(77, 77, 163);
+    margin: 0 0.4rem;
+}
+
+.comment__content{
+    width: 80%;
+    margin:0.5rem auto;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between  ;
+    width: 80%;
+    margin:1rem auto;
+    color: #888;
+}
